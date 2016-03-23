@@ -17,20 +17,20 @@ end
 if msg.text == "salam" then
   return "va aleykol asalam"
 end
-if msg.text == "zac" then
-  return "Nagaeedim"
+if msg.text == "alpha" then
+  return "very good team"
 end
-if msg.text == "Zac" then
-  return "Nagaeedim"
+if msg.text == "Alpha" then
+  return "very good team"
 end
-if msg.text == "Sbss" then
+if msg.text == "erfan" then
   return "Is the best"
 end
-if msg.text == "Sbss" then
+if msg.text == "Erfan" then
   return "Is the best"
 end
-if msg.text == "SBSS" then
-  return "Jnm?"
+if msg.text == "robot" then
+  return "پرچم بالاست"
 end
 if msg.text == "bot" then
   return "hum?"
@@ -59,10 +59,10 @@ end
 if msg.text == "خدافظ" then
   return "Bye Bye"
 end
-if msg.text == "Mr Ahs" then
+if msg.text == "عرفان" then
   return "چیکار داری بابامو؟"
 end
-if msg.text == "@Mr_Ah_s" then
+if msg.text == "عفی" then
   return "چیکار داری بابامو؟"
 end
 end
@@ -79,13 +79,13 @@ return {
     "^[Bb]ye$",
     "^?$",
     "^[Ss]alam$",
-    "^@Mr_Ah_S$",
-    "^Mr Ahs$",
+    "^عرفان$",
+    "^عفی$",
     "^خدافظ$",
     "^بای$",
     "^[Ss]lm$",
-    "^SBSS$",
-    "^[Ss]bss$",
+    "^[Aa]lpha$",
+    "^[Rr]obot$",
     }, 
   run = run,
   pre_process = pre_process
