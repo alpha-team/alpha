@@ -208,6 +208,11 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "dlplugins",
+    "wiki",
+    "text_voice",
+    "auto_leave",
+    "translate",
     "SUDO",
     "addplug",
     "admin",
